@@ -1,0 +1,27 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: aliceblue;
+    margin: 70px;
+    padding: 50px;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.question{
+    padding: 20px;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.answer{
+    padding: 10px;
+    font-style: italic;
+}
+
+.question.active{
+    background-color: #e0f7fa;
+}

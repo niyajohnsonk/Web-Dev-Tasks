@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    margin: 30px;
+  }
+  input, textarea {
+    margin: 5px;
+    padding: 8px;
+    width: 300px;
+  }
+  textarea {
+    height: 100px;
+  }
+  table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  

@@ -1,0 +1,53 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    background-color: #f8f8f8;
+  }
+  
+  #quiz-container, #result {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #question {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .option {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .option:hover {
+    background-color: #d0d0ff;
+  }
+  
+  #timer {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  #progressBarContainer {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  #progressBar {
+    width: 100%;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 1s linear;
+  }
+  
